@@ -1,0 +1,8 @@
+# Compiled C++ artifacts
+*.exe
+*.o
+*.obj
+*.pdb
+
+# Local editor settings
+.vscode/
