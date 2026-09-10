@@ -9,7 +9,7 @@ A structured collection of my C++ learning exercises and data-structures-and-alg
 - `03-pointers` — pointers, references, dynamic memory, and structs
 - `04-vectors` — vector-based algorithm problems
 - `05-matrices` — 2D vectors and matrix algorithms
-
+- `00-sorting` — sorting algos bubble sort, selection sort
 ## Build and run
 
 Every example is a standalone program. Compile one file at a time:
