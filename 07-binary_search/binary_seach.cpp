@@ -25,3 +25,12 @@ int main(){
     cout<<"Element Not Found!";
 
 }
+
+
+// calculation of tc 
+// suppose there are n elements 
+// after each iteration it is decreased by half .
+// like n -> n/2 -> n/4 -> n/2^k 
+// it will stop when there will be only one element so 
+//  n/2^k = 1
+//  after that k = log2(n)
