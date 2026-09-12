@@ -2,7 +2,7 @@
 using namespace std;
 void change(int x[]){
     x[0] = 20;
-    x[1] = 2;
+    x[1] = 22;
 }
 int main(){
     int x[] = {6,1,2};

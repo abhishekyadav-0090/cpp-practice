@@ -3,15 +3,13 @@
 using namespace std;
 int main(){
 
-    int n;
+int n ;
+int fact = 1;
  cout<<"enter the number"<<endl;
  cin>>n;
  for(int i = 1;i<=n;i++){
-    n = n*(n-i);
-
+    fact = fact*i;
  }
- cout<<n<<endl;
-
-
+ cout<<fact<<endl;
 }
     

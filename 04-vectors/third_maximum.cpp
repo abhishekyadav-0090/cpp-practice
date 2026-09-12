@@ -46,25 +46,19 @@ int main(){
 
 
     int arr[] = {4, 1, 9, 7, 2,5};
-    //int mx = INT_MIN;
-    int in = 0;
-    int b[10];
-    for(int i = 0;i<size(arr);i++){
-        int mx = INT_MIN;
-        for(int j = i;j<size(arr);j++){
-        if(mx<arr[j]){
+    for(int i = 0; i < 3; i++) {
+    int mx = INT_MIN;
+    int in = i;
+
+    for(int j = i; j < size(arr); j++) {
+        if(mx < arr[j]) {
             mx = arr[j];
             in = j;
         }
-            
     }
 
-        b[i] = mx;
-        int s = arr[i];
-        arr[i] = arr[in];
-        arr[in] = s; 
-        
+    swap(arr[i], arr[in]);
 }
-cout<<arr[2]<<'\n';
-cout<<b[2];
+
+cout << arr[2];
 }

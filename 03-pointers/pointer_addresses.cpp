@@ -8,5 +8,6 @@ int* p2 = &x;
 cout<<&x<<endl;
 cout<<p1<<" "<<p2<<endl;
 cout<<&p1<<" "<<&p2<<endl;
+cout<<*p1<<" "<<*p2<<endl;
 
 }

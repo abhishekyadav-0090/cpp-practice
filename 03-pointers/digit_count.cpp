@@ -28,6 +28,7 @@ using namespace std;
 void countDigits(int n, int* c){
     int count = (n==0)?1:0;
     while (n!=0){
+        n= n/10;
         count++;
     }
         *c = count;

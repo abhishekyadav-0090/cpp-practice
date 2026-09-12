@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     vector<int> arr = {1,3,5,7};
-    int target = 8;
+    int target = 4;
     int n = arr.size();
     int low = 0;
     int high = n-1;
@@ -25,26 +25,23 @@ int main() {
         }
     }
     cout<<lb;
-
-
-
 }
 
 //using builtInFunction
 
-#include <iostream>
-#include <vector>
-#include <algorithm>
-using namespace std;
+// #include <iostream>
+// #include <vector>
+// #include <algorithm>
+// using namespace std;
 
-int main() {
-    vector<int> arr = {1, 3, 5, 7};
-    int target = 2;
+// int main() {
+//     vector<int> arr = {1, 3, 5, 7};
+//     int target = 2;
 
-    auto it = lower_bound(arr.begin(), arr.end(), target);
+//     auto it = lower_bound(arr.begin(), arr.end(), target);
 
-    if (it == arr.end())
-        cout << -1;        // every element is smaller than target
-    else
-        cout << *it;       // smallest value >= target
-}
+//     if (it == arr.end())
+//         cout << -1;        // every element is smaller than target
+//     else
+//         cout << *it;       // smallest value >= target
+// }

@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     vector<int>v = {2,3,45,98,54,99,56};
     int n = v.size();
-    int k = 10;
+    int k = 2;
     if (k>n){
         k = k%n;
     }

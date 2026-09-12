@@ -1,24 +1,26 @@
-#include<iostream>
-#include<vector>
-#include<algorithm>
+#include <iostream>
+#include <vector>
 using namespace std;
-int main(){
 
-    
-    vector<int> v = {1,3};
-    for(int i =1;i<v.size();i++){
-        if(v[v.size()-i] != 9){
-            v[v.size()-i]++;
+int main() {
+
+    vector<int> v = {9,9};
+
+    for(int i = v.size() - 1; i >= 0; i--) {
+
+        if(v[i] != 9) {
+            v[i]++;
             break;
         }
-        else if(v[v.size()-i] == 9){
-            v[v.size()-i] = 0;
-            //  v[v.size()-(i+1)]++;
-            //  break;
+
+        v[i] = 0;
+
+        if(i == 0) {
+            v.insert(v.begin(), 1);
         }
-        
-       
-                
     }
-for(int ele : v){cout<<ele<<" ";}
+
+    for(int ele : v) {
+        cout << ele << " ";
+    }
 }
