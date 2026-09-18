@@ -4,7 +4,7 @@
 #include<climits>
 using namespace std;
 int main(){
-    int arr[][4] = {{2,3,2,5},{2,3,23,4},{4,2,1,0}};
+    int arr[][4] = {{2,3,2,5},{2,3,23,4},{3,2,1,0}};
     int sum = 0;
     
     int ind = INT_MAX;

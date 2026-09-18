@@ -7,7 +7,7 @@ int main(){
     int arr[][4] = {{2,3,2,4},{2,3,23,4},{4,2,1,4}};
     int sum = 0;
     int max = INT_MIN;
-    int ind ;
+    int ind =0;
     for(int i = 0;i<3;i++){
         for(int j = 0;j<4;j++){
             sum += arr[i][j]; 
