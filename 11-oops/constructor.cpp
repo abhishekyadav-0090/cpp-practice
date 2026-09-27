@@ -20,7 +20,7 @@ public:
 int main(){
     Student x("Ak",8.7,90);
     Student y("Sk",8.9,9);
-    Student z;
+    Student z;//Car z; requires a constructor that can be called with zero arguments.
     z.name = "OM";
     z.roll = 34;
     z.cgpa = 8.7;

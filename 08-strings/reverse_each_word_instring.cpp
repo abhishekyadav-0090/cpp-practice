@@ -62,6 +62,5 @@ int main()
     // cout<<endl;
     // reverse(0,s.size()-1,s);
     // cout<<s;
-
     clean(s);
 }
