@@ -27,6 +27,7 @@ int main()
     b.next = &c;
     c.next = &d;
     d.next = &e;
-    cout<<(b.val)<<endl;
-    cout << a.next->val << endl;
+    cout<<(b.val)<<endl;// here they are printing b's value
+    cout << a.next->val << endl;// here they are printing b's value
+    cout << (*(a.next)).val << endl;// here they are printing b's value
 }
